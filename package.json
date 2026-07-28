@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node api.js && next dev --turbopack",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "shadcn:add": "npx shadcn@latest add button input textarea label card select checkbox radio-group table dialog sheet alert badge avatar skeleton separator tabs dropdown-menu popover form tooltip sonner -y"
