@@ -15,8 +15,6 @@ dist/
 .vercel
 
 # Environment
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -48,7 +46,7 @@ Thumbs.db
 
 # Optional
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
+config.bat

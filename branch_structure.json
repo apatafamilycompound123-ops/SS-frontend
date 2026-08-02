@@ -1,0 +1,21 @@
+{
+  "default_branch": "dev",
+  "branches": [
+    "dev",
+    "feat/sortable-invoice-marketplace",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "dev": null,
+    "feat/sortable-invoice-marketplace": "dev",
+    "main": "dev",
+    "origin": "dev"
+  },
+  "order": [
+    "dev",
+    "feat/sortable-invoice-marketplace",
+    "main",
+    "origin"
+  ]
+}
